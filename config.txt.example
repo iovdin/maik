@@ -1,0 +1,15 @@
+# Maik Email Client Configuration
+# Place this file at ~/.config/maik/config.txt
+
+# IMAP server settings
+host = imap.example.com
+user = your-email@example.com
+password = your-password
+
+# Output directory for downloaded emails
+output = ~/mail
+
+# Optional settings
+# port = 993
+# tls = true
+# box = INBOX

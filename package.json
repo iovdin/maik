@@ -1,0 +1,18 @@
+{
+  "name": "maik",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "maik": "./cli.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "commander": "^14.0.3",
+    "imapflow": "^1.2.9",
+    "postal-mime": "^2.7.3"
+  }
+}
