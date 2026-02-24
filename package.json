@@ -4,7 +4,7 @@
   "description": "Command-line IMAP email client that downloads emails from your server and indexes them locally in SQLite for fast offline search and querying.",
   "main": "index.js",
   "bin": {
-    "maik": "./cli.js"
+    "maik": "cli.js"
   },
   "license": "MIT",
   "author": "Ilya Ovdin &lt;iovdin@gmail.com&gt;",
