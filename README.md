@@ -16,7 +16,7 @@ Create a configuration file at `~/.config/maik/config.txt`:
 
 ```
 # IMAP server settings
-host = imap.example.com
+host = imap.gmail.com
 user = your-email@example.com
 password = your-password
 
