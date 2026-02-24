@@ -5,7 +5,7 @@ A command-line tool to download and index emails from an IMAP server.
 ## Installation
 
 ```bash
-npm install -g maik
+npm install -g @iovdin/maik
 ```
 
 ## Configuration
