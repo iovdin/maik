@@ -1,14 +1,40 @@
 {
   "name": "maik",
   "version": "1.0.0",
+  "description": "Command-line IMAP email client that downloads emails from your server and indexes them locally in SQLite for fast offline search and querying.",
   "main": "index.js",
   "bin": {
     "maik": "./cli.js"
   },
+  "license": "MIT",
+  "author": "Ilya Ovdin &lt;iovdin@gmail.com&gt;",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iovdin/maik.git"
+  },
+  "homepage": "https://github.com/iovdin/maik#readme",
+  "bugs": {
+    "url": "https://github.com/iovdin/maik/issues"
+  },
+  "keywords": [
+    "imap",
+    "email",
+    "cli",
+    "command-line",
+    "sqlite",
+    "offline",
+    "mail",
+    "index",
+    "search",
+    "download"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "commonjs",
   "exports": {
     "./middleware": "./default.ctx.js"
   },
-  "private": true,
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.11"
   },

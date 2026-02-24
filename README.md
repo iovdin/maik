@@ -113,9 +113,11 @@ module.exports = [
 
 The middleware allows Tune to read email bodies and attachments as files:
 
+```
 mail/YYYY-MM/<uid>/body.txt
 mail/YYYY-MM/<uid>/body.html
 mail/YYYY-MM/<uid>/<attachmentname.ext>
+```
 
 
 ### Usage
