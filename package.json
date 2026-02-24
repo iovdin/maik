@@ -1,5 +1,5 @@
 {
-  "name": "maik",
+  "name": "@iovdin/maik",
   "version": "1.0.0",
   "description": "Command-line IMAP email client that downloads emails from your server and indexes them locally in SQLite for fast offline search and querying.",
   "main": "index.js",
