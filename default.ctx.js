@@ -76,7 +76,5 @@ module.exports = async function maik(name, args) {
     source: "maik",
     read: async () => value 
   }
-  fs.writeFileSync("./image.jpg", await result.read())
-  // console.log(result, value)
   return  result 
 }
