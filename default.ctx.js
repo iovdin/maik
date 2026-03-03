@@ -66,6 +66,8 @@ module.exports = async function maik(name, args) {
       } else {
         type = "binary"
       }
+    } else {
+      return
     }
   }
 
